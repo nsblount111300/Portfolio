@@ -1,5 +1,5 @@
 import blogData from "./blogs.json" assert { type: "json" };
-const blogContainer = document.getElementById("blog-card-container");
+// const blogContainer = document.getElementById("blog-card-container");
 
 blogData.forEach((blog) => {
   const singleBlog = document.getElementById("blog-card-container");
@@ -11,5 +11,5 @@ blogData.forEach((blog) => {
     <p id="blog-text">${blog.text}</p>
     </div>
   `;
-  blogContainer.appendChild(singleBlog);
+  // blogContainer.appendChild(singleBlog);
 });
