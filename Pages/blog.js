@@ -2,7 +2,7 @@ import blogData from "./blogs.json" assert { type: "json" };
 const blogContainer = document.getElementById("blog-card-container");
 
 blogData.forEach((blog) => {
-  const singleBlog = document.createElement("div");
+  const singleBlog = document.getElementById("blog-card-container");
   singleBlog.innerHTML = `
     <div id="js-card">
     <h4 id="blog-date">${blog.date}</h4>
