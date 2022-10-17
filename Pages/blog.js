@@ -1,5 +1,3 @@
-// import blogData from "./blogs.json" assert { type: "json" };
-// const blogContainer = document.getElementById("blog-card-container");
 const blogData = [
   {
     id: "1",
@@ -12,30 +10,7 @@ const blogData = [
 
 blogData.forEach((blog) => {
   const singleBlog = document.getElementById("blog-card-container");
-  // const blogDiv = document.createElement("div");
-  // blogDiv.setAttribute("id", "js-card");
 
-  // const blogDate = document.createElement("h4");
-  // blogDate.setAttribute("id", "blog-date");
-  // blogDate.textContent = `${blog.date}`;
-
-  // const blogTitle = document.createElement("h3");
-  // blogTitle.setAttribute("id", "blog-title");
-  // blogTitle.textContent = blog.title;
-
-  // const blogText = document.createElement("p");
-  // blogText.setAttribute("id", "blog-text");
-  // blogText.textContent = blog.text;
-
-  // const blogImg = document.createElement("img");
-  // blogImg.setAttribute("id", "blog-img");
-  // blogImg.src = blog.img;
-
-  // singleBlog.appendChild(blogDiv);
-  // blogDiv.appendChild(blogDate);
-  // blogDiv.appendChild(blogTitle);
-  // blogDiv.appendChild(blogImg);
-  // blogDiv.appendChild(blogText);
   singleBlog.innerHTML = `
     <div id="js-card">
     <h4 id="blog-date">${blog.date}</h4>
@@ -44,5 +19,4 @@ blogData.forEach((blog) => {
     <p id="blog-text">${blog.text}</p>
     </div>
   `;
-  // blogContainer.appendChild(singleBlog);
 });
