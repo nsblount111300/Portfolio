@@ -8,15 +8,15 @@ blogData.forEach((blog) => {
 
   const blogDate = document.createElement("h4");
   blogDate.setAttribute("id", "blog-date");
-  blogDate.innerText = `${blog.date}`;
+  blogDate.textContent = `${blog.date}`;
 
   const blogTitle = document.createElement("h3");
   blogTitle.setAttribute("id", "blog-title");
-  blogTitle.innerText = blog.title;
+  blogTitle.textContent = blog.title;
 
   const blogText = document.createElement("p");
   blogText.setAttribute("id", "blog-text");
-  blogText.innerText = blog.text;
+  blogText.textContent = blog.text;
 
   const blogImg = document.createElement("img");
   blogImg.setAttribute("id", "blog-img");
