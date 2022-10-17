@@ -72,9 +72,14 @@ section {
   /* border: 1px solid red; */
 }
 
+.dropdown.active > .link,
+.link:hover {
+  color: rgb(65, 121, 206);
+}
+
 .dropdown {
   /* border: 1px solid red; */
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 100px;
   /* position: relative; */
 }
@@ -89,25 +94,30 @@ section {
   border-radius: 0.5rem;
   box-shadow: 0px -20px 60px -20px rgba(0, 0, 0, 0.7);
   opacity: 0;
+  pointer-events: none;
   transform: translateY(-10px);
   transition: opacity 150ms ease-in-out, transform 450ms ease-in-out;
   border: 2px solid rgb(161, 160, 160);
+  transform: scale(0.5);
   /* border: 1px solid red; */
 }
-.dropdown > .link:focus + .dropdown-menu {
+.dropdown.active > .link + .dropdown-menu {
   opacity: 1;
   transform: translateY(0);
+  pointer-events: auto;
 }
 .link {
   background-color: var(--background-color);
   color: rgb(65, 121, 206);
   display: grid;
+  cursor: pointer;
+  width: 50vw;
+  height: 7vh;
   place-items: center;
   border: 2px solid rgb(161, 160, 160);
   align-items: center;
   /* border: 1px solid red; */
 }
-
-.fa-solid fa-house-chimney {
-  width: 100vw;
+.fa-solid {
+  transform: scale(1.75);
 }
