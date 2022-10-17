@@ -3,7 +3,7 @@ const blogData = [
     id: "1",
     date: "10/16/2022",
     title: "First JavaScript!",
-    img: "../first-javascript.png",
+    img: "../jsfirstcode.png",
     text: "Today I wrote my first lines of JavaScript code! This code specifically allows me to get the information needed for these blog posts!",
   },
 ];
