@@ -12,6 +12,10 @@
     <title>Nash's Portfolio - Home</title>
   </head>
   <style>
+    :root {
+      --background-color: rgb(26, 26, 26);
+    }
+
     #path4 {
       width: 400px;
       margin: 10% auto;
@@ -60,7 +64,6 @@
     }
     .paragraph {
       font-size: 25px;
-      background-color: rgb(36, 36, 36);
       color: rgb(184, 184, 184);
       animation: fade 3s ease;
       animation-direction: normal;
@@ -81,6 +84,7 @@
       margin: auto;
       margin-top: 60px;
       margin-bottom: -35px;
+      border: 1px solid red;
     }
     h4 {
       font-style: normal;
@@ -96,7 +100,7 @@
       left: 0;
     }
     p::before {
-      background: rgb(36, 36, 36);
+      background: var(--background-color);
       animation: typewriter 4s ease forwards;
     }
     @keyframes typewriter {
