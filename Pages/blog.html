@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <script
+      src="https://kit.fontawesome.com/be955ade18.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Nash's Portfolio - Blog</title>
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html"><i class="fa fa-light fa-house-chimney"></i></a>
+      <a href="./contact.html"><i class="fa-solid fa-address-book"></i></a>
+      <a href="./projects.html"><i class="fa-solid fa-clipboard-list"></i></a>
+      <a href="./blog.html"><i class="fa-solid fa-comment-dots"></i></a>
+    </nav>
+    <section>
+      <div class="blog-container">
+        <h1>Blog</h1>
+        <div id="blog-card-container"></div>
+      </div>
+    </section>
+  </body>
+  <script src="./blog.js" type="module"></script>
+  <style>
+    .blog-container {
+      display: grid;
+      place-items: center;
+      margin-top: 100px;
+      margin-right: auto;
+      margin-left: auto;
+      width: 100%;
+    }
+    #blog-date {
+      display: grid;
+      place-items: center;
+      margin-top: 10px;
+    }
+    #blog-card-container {
+      display: grid;
+      place-items: center;
+      max-width: 80vw;
+      max-height: 50vh;
+      margin-top: 15px;
+      /* border: 1px solid red; */
+    }
+    #blog-title {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    #blog-text {
+      font-family: monospace;
+      font-style: italic;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    #blog-img {
+      border-radius: 0.5rem;
+      box-shadow: 0px -10px 60px -1px rgba(0, 0, 0, 0.7);
+      -webkit-box-shadow: 0px -10px 60px -1px rgba(0, 0, 0, 0.7);
+      -moz-box-shadow: 0px -10px 60px -1px rgba(0, 0, 0, 0.7);
+      width: 70vw;
+      margin-bottom: 10px;
+      /* object-fit: cover; */
+      /* object-position: 100% 100%; */
+    }
+    #js-card {
+      background: rgb(121, 121, 121);
+      /* background: linear-gradient(
+        0deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgb(65, 121, 206) 16%,
+        rgb(107, 107, 107) 100%
+      ); */
+      border-radius: 1rem;
+      display: grid;
+      place-items: center;
+      margin-bottom: 10%;
+      width: 100%;
+      /* border: 1px solid red; */
+    }
+  </style>
+</html>
