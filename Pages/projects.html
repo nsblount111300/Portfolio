@@ -16,7 +16,56 @@
     .projects-container {
       display: grid;
       place-items: center;
-      margin-top: 300px;
+      height: 150px;
+    }
+    .header-block {
+      display: grid;
+      place-items: center;
+      font-size: 40px;
+      color: black;
+      border-radius: 0.1rem;
+      margin-top: 15%;
+      margin-bottom: 10%;
+      padding: 0% 65%;
+      box-shadow: 4px 5px 10px 3px rgba(0, 0, 0, 0.7);
+      background-color: rgb(219, 219, 219);
+    }
+    .title {
+      display: grid;
+      place-items: center;
+      margin-bottom: 50px;
+      font-family: monospace;
+      color: var(--main-color);
+    }
+    .project-desc {
+      display: grid;
+      place-items: center;
+      margin: 35px;
+      margin-top: 25%;
+    }
+    .button-links {
+      font-size: 25px;
+      font-family: monospace;
+      margin-bottom: 15px;
+      /* border: 5px solid black; */
+    }
+    .project {
+      display: grid;
+      place-items: center;
+    }
+    h1 {
+      font-size: 50px;
+      margin: 10%;
+      /* margin-bottom: 10px; */
+    }
+    h2 {
+      display: grid;
+      place-items: center;
+      text-align: center;
+      margin-bottom: 50px;
+      padding: 20px;
+      font-size: 25px;
+      /* border: 1px solid red; */
     }
   </style>
   <body>
@@ -31,16 +80,22 @@
           <a href="./blog.html"><i class="fa-solid fa-comment-dots"></i></a>
         </div>
       </div>
-      <!-- 
-      <a href="../index.html"><i class="fa fa-light fa-house-chimney"></i></a>
-      <a href="./contact.html"><i class="fa-solid fa-address-book"></i></a>
-      <a href="./projects.html"><i class="fa-solid fa-clipboard-list"></i></a>
-      <a href="./blog.html"><i class="fa-solid fa-comment-dots"></i></a> -->
     </nav>
     <section>
       <div class="projects-container">
         <h1>Projects</h1>
-        <p>Nothing yet.</p>
+        <h2>
+          Here are some projects that I have worked on in the past! Feel free to
+          contact me regarding any more information on them.
+        </h2>
+        <div class="project">
+          <h2 class="header-block">#1</h2>
+          <h2 class="title">Project Title</h2>
+          <img src="" alt="PROJECT-IMG" />
+          <p class="project-desc">Project description...</p>
+          <button class="button-links">Demo</button>
+          <button class="button-links">GitHub</button>
+        </div>
       </div>
     </section>
   </body>
