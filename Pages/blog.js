@@ -11,7 +11,7 @@ const blogData = [
     date: "10/17/2022",
     title: "Drop Down Menu!",
     img: "../menu.png",
-    text: "Today I spend most of my time creating the site's navigation menu! It took me a while and I had to write some new JavaScript that implemented the drop down function.",
+    text: "Today I spent most of my time creating the site's navigation menu! It took me a while and I had to write some new JavaScript that implemented the drop down function.",
   },
 ];
 
