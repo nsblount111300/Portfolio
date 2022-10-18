@@ -73,10 +73,10 @@ section {
   /* border: 1px solid red; */
 }
 
-.dropdown.active > .link,
+/* .dropdown.active > .link,
 .link:hover {
   color: var(--main-color);
-}
+} */
 
 .dropdown {
   /* border: 1px solid red; */
