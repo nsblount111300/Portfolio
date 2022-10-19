@@ -25,7 +25,7 @@
       font-size: 40px;
       color: black;
       border-radius: 0.1rem;
-      margin-top: 15%;
+      margin-top: 20%;
       margin-bottom: 10%;
       padding: 10px 150px;
       /* padding-top: 10px;
@@ -33,28 +33,44 @@
       padding-left: 150px;
       padding-right: 150px; */
       box-shadow: 4px 5px 10px 3px rgba(0, 0, 0, 0.7);
+      text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
       background-color: rgb(219, 219, 219);
       /* border: 1px solid red; */
+    }
+    .header-desc {
+      margin-bottom: 5%;
+      text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
     }
     .title {
       display: grid;
       place-items: center;
-      margin-bottom: 50px;
+      margin-bottom: 10%;
+      font-size: 35px;
       font-family: monospace;
       color: var(--main-color);
+      text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
       /* border: 1px solid red; */
     }
     .project-desc {
       display: grid;
       place-items: center;
       margin: 35px;
-      margin-top: 25%;
+      margin-top: 40px;
+      margin-bottom: 15%;
+      text-align: center;
+      font-size: 25px;
+      font-family: monospace;
+      text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
       /* border: 1px solid red; */
     }
     .button-links {
-      font-size: 25px;
+      font-size: 30px;
       font-family: monospace;
-      margin-bottom: 15px;
+      margin-top: 5px;
+      color: var(--main-color);
+      background-color: rgb(59, 59, 59);
+      box-shadow: 1px 5px 10px 3px rgba(0, 0, 0, 0.7);
+      /* margin-bottom: 10px; */
       /* border: 5px solid black; */
       /* border: 1px solid red; */
     }
@@ -66,6 +82,7 @@
     h1 {
       font-size: 50px;
       margin: 10%;
+      text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
       /* margin-bottom: 10px; */
       /* border: 1px solid red; */
     }
@@ -77,6 +94,15 @@
       padding: 20px;
       font-size: 25px;
       /* border: 1px solid red; */
+    }
+    .project-img {
+      max-width: 400px;
+      margin-bottom: 5%;
+      border: 3px solid white;
+    }
+    .github-link {
+      font-size: 0px;
+      margin: -30px;
     }
   </style>
   <body>
@@ -95,17 +121,39 @@
     <section>
       <div class="projects-container">
         <h1>Projects</h1>
-        <h2>
+        <h2 class="header-desc">
           Here are some projects that I have worked on in the past! Feel free to
           contact me regarding any more information on them.
         </h2>
         <div class="project">
           <h2 class="header-block">#1</h2>
-          <h2 class="title">Project Title</h2>
-          <img src="" alt="PROJECT-IMG" />
+          <h2 class="title">Simple Weather App</h2>
+          <img
+            class="project-img"
+            src="../Images/project-page-image-1.png"
+            alt="PROJECT-IMG"
+          />
+          <p class="project-desc">
+            This is a simple weather app where a user can input any city in the
+            US, or any country, and it will display various information about
+            that location's weather!
+          </p>
+          <button class="button-links" src="">Demo</button>
+          <button class="button-links">
+            <a
+              class="github-link"
+              href="https://github.com/nsblount111300/Weather-App"
+            ></a
+            >GitHub
+          </button>
+          <h2 class="header-block">#2</h2>
+          <h2 class="title">Project Name</h2>
+          <img class="project-img" src="" alt="PROJECT-IMG" />
           <p class="project-desc">Project description...</p>
-          <button class="button-links">Demo</button>
-          <button class="button-links">GitHub</button>
+          <button class="button-links" src="">Demo</button>
+          <button class="button-links">
+            <a class="github-link" href=""></a>GitHub
+          </button>
         </div>
       </div>
     </section>
