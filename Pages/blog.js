@@ -13,6 +13,13 @@ const blogData = [
     img: "../Images/menu.png",
     text: "Today I spent most of my time creating the site's navigation menu! It took me a while and I had to write some new JavaScript that implemented the drop down function.",
   },
+  {
+    id: "3",
+    date: "10/18/2022",
+    title: "Weather App!",
+    img: "../Images/weather-app.png",
+    text: "My first project! I worked on a weather app today which involved setting up a search function to get data from an API to display on a card.",
+  },
 ];
 
 blogData.forEach((blog) => {
