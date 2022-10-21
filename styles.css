@@ -22,7 +22,7 @@ nav {
   width: 100vw;
   height: 10vh;
   z-index: 5;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* display: grid;
   place-items: center;
   margin: auto; */
@@ -50,7 +50,7 @@ nav {
   display: grid;
   place-items: center;
   font-size: 25px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 button {
@@ -88,7 +88,7 @@ p {
 section {
   color: rgb(255, 255, 255);
   font-style: bold;
-  height: 14vh;
+  height: 25vh;
   display: grid;
   place-items: center;
   /* border: 1px solid red; */
