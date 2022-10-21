@@ -42,14 +42,14 @@ nav {
   /* position: fixed; */
   margin: auto;
   padding: 0px;
-  margin-top: 0px;
+  margin-top: 50px;
   /* position: fixed; */
   width: 53vw;
   height: 9.5vh;
   padding: 0%;
   display: grid;
   place-items: center;
-  font-size: 25px;
+  font-size: 20px;
   /* border: 1px solid red; */
 }
 
