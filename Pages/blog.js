@@ -20,6 +20,13 @@ const blogData = [
     img: "../Images/weather-app.png",
     text: "My first project! I worked on a weather app today which involved setting up a search function to get data from an API to display on a card.",
   },
+  {
+    id: "4",
+    date: "10/20/2022",
+    title: "Song Lyrics Finder!",
+    img: "../Images/song-lyrics-app.png",
+    text: "I've made a song lyric finder app! This uses an api that gets the lyrics to a song if the user provides a band name and song title. It was really fun to make and will be pretty useful personally since I do a lot of song lyric searching.",
+  },
 ];
 
 blogData.forEach((blog) => {
