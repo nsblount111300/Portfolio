@@ -43,8 +43,8 @@ nav {
 
 button {
   max-width: 300px;
-  align-items: center;
-  position: relative;
+  /* align-items: center; */
+  /* position: relative; */
   /* padding: 11px; */
   /* margin: 5px; */
   border-radius: 10px;
