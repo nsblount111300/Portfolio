@@ -84,8 +84,8 @@ section {
 }
 
 .dropdown {
-  /* display: grid;
-  place-items: center; */
+  display: grid;
+  place-items: center;
   /* width: 400px; */
   z-index: 1;
   /* border: 1px solid red; */
@@ -93,7 +93,7 @@ section {
 .dropdown-menu {
   display: grid;
   place-items: center;
-  position: relative;
+  /* position: relative; */
   margin-top: 10px;
   top: calc(100% + 0.25rem);
   background-color: rgb(26, 26, 26);
