@@ -133,6 +133,7 @@ section {
 }
 
 @media (min-width: 1024px) {
+  /* Home Page */
   .paragraph {
     font-size: 30px;
     width: 100%;
@@ -140,25 +141,61 @@ section {
   .skill-container {
     max-width: 40%;
   }
+  .svg {
+    margin-top: 25vh;
+    width: 600px;
+    height: 600px;
+  }
+  .arrow {
+    font-size: 25px;
+  }
+  /*-----------*/
+
+  /* Projects Page */
   .project-container {
     max-width: 10%;
     max-height: 10%;
   }
   .project-cont-below {
-    /* margin-right: px; */
     max-width: 100%;
     display: flex;
-    /* border: 3px solid red; */
   }
   .project {
     flex: 1;
     display: grid;
     place-items: center;
-    /* border: 2px solid red; */
-    /* margin-right: 20px; */
   }
+  .project-desc {
+    max-height: 250px;
+    font-size: 30px;
+  }
+  /*---------------*/
+
+  /* Blog Page */
+  .blog-page-desc {
+    margin-top: -20px;
+    max-width: 70%;
+    font-size: 35px;
+  }
+  #blog-img {
+    display: grid;
+    place-items: center;
+    max-width: 50%;
+  }
+  #blog-text {
+    font-size: 30px;
+    padding: 0px 100px;
+  }
+  #blog-date {
+    font-size: 35px;
+  }
+  #blog-title {
+    font-size: 50px;
+  }
+  /*-----------*/
 }
 @media (min-width: 1600px) {
+  /* Projects Page */
   html {
     display: grid;
     place-items: center;
@@ -171,16 +208,45 @@ section {
     max-height: 10%;
   }
   .project-cont-below {
-    /* margin-right: px; */
     max-width: 100%;
     display: flex;
-    /* border: 3px solid red; */
   }
   .project {
     flex: 1;
     display: grid;
     place-items: center;
-    /* border: 2px solid red; */
-    /* margin-right: 20px; */
   }
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .project-desc {
+    max-height: 250px;
+    font-size: 30px;
+  }
+  /*---------------*/
+
+  /* Blog Page */
+  .blog-page-desc {
+    margin-top: -20px;
+    max-width: 80%;
+    font-size: 35px;
+  }
+  #blog-img {
+    display: grid;
+    place-items: center;
+    max-width: 40%;
+  }
+  #blog-text {
+    font-size: 30px;
+  }
+  #blog-date {
+    font-size: 35px;
+  }
+  #blog-title {
+    font-size: 50px;
+  }
+  /*-----------*/
 }

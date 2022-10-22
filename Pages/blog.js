@@ -24,7 +24,7 @@ const blogData = [
     id: "4",
     date: "10/20/2022",
     title: "Song Lyrics Finder!",
-    img: "../Images/song-lyrics-app.png",
+    img: "../Images/song-lyrics-app-resized.png",
     text: "I've made a song lyric finder app! This uses an api that gets the lyrics to a song if the user provides a band name and song title. It was really fun to make and will be pretty useful personally since I do a lot of song lyric searching.",
   },
 ];
