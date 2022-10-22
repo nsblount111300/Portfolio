@@ -21,8 +21,8 @@ body {
 
 nav {
   position: fixed;
-  /* width: 100vw; */
-  height: 10vh;
+  width: 73vw;
+  height: 0vh;
   margin-top: 200px;
   z-index: 5;
 }
