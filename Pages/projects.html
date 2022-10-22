@@ -16,8 +16,9 @@
     .projects-container {
       display: grid;
       place-items: center;
-      margin-top: 25px;
-      height: 5px;
+      /* margin-top: 25px; */
+      /* margin: -100%; */
+      /* height: 5px; */
       /* border: 1px solid red; */
     }
     .header-block {
@@ -63,7 +64,7 @@
     .button-links {
       font-size: 30px;
       font-family: monospace;
-      margin-top: 5px;
+      margin-top: 10px;
       color: var(--main-color);
       background-color: rgb(59, 59, 59);
       box-shadow: 1px 5px 10px 3px rgba(0, 0, 0, 0.7);
@@ -72,12 +73,13 @@
     .project {
       display: grid;
       place-items: center;
+      
       /* border: 1px solid red; */
     }
     h1 {
       font-size: 50px;
       margin: 10%;
-      margin-top: 125px;
+      margin-top: 350px;
       text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
       /* border: 1px solid red; */
     }
@@ -92,22 +94,31 @@
     }
     .project-img {
       max-width: 400px;
+      max-height: 300px;
       margin-bottom: 5%;
       border: 3px solid white;
     }
     .github-link {
-      font-size: 30px;
-      color: var(--main-color);
-      font-family: monospace;
-      margin: -10px;
-      height: 50px;
-      /* border: 1px solid red; */
+      display: grid;
+      place-items: center;
+      padding: 0px 18px;
+      /* width: 100vw; */
+      margin: 15px 75px;
+      text-align: center;
+    }
+    .demo-link {
+      display: grid;
+      place-items: center;
+      padding: 0px 25px;
+      /* width: 100vw; */
+      margin: 15px 75px;
+      text-align: center;
     }
   </style>
   <body>
     <section>
       <nav>
-        <h1 class="home-button">
+        <div class="home-button">
           <div class="dropdown" data-dropdown>
             <button class="link" data-dropdown-button>
               <i class="fa-solid fa-clipboard-list" data-dropdown-button></i>
@@ -122,66 +133,73 @@
               <a href="./blog.html"><i class="fa-solid fa-comment-dots"></i></a>
             </div>
           </div>
-        </h1>
+        </div>
       </nav>
       <div class="projects-container">
         <h1>Projects</h1>
         <h2 class="header-desc">
-          Here are some projects that I have worked on in the past! Feel free to
-          contact me regarding any more information on them.
+          Here are some projects that I have worked on in the past! Feel free
+          to contact me regarding any more information on them.
         </h2>
-        <div class="project">
-          <h2 class="header-block">#1</h2>
-          <h2 class="title">Simple Weather App</h2>
-          <img
-            class="project-img"
-            src="../Images/project-page-image-1.png"
-            alt="PROJECT-IMG"
-          />
-          <p class="project-desc">
-            This is a simple weather app where a user can input any city in the
-            US, or any country, and it will display various information about
-            that location's weather!
-          </p>
-          <button class="button-links" src="">
-            <a
-              class="github-link"
-              href="https://nashblount-weather-app.netlify.app/"
-              >Demo</a
-            >
-          </button>
-          <button class="button-links">
-            <a
-              class="github-link"
-              href="https://github.com/nsblount111300/Weather-App"
-              >GitHub</a
-            >
-          </button>
-          <h2 class="header-block">#2</h2>
-          <h2 class="title">Song Lyric Finder</h2>
-          <img
-            class="project-img"
-            src="../Images/song-lyrics-app.png"
-            alt="PROJECT-IMG"
-          />
-          <p class="project-desc">
-            This app allows a user to input a band name along with the title of
-            the song to instantly get the lyrics to a song!
-          </p>
-          <button class="button-links">
-            <a
-              class="github-link"
-              href="https://nb-song-lyrics-app.netlify.app/"
-              >Demo</a
-            >
-          </button>
-          <button class="button-links">
-            <a
-              class="github-link"
-              href="https://github.com/nsblount111300/Song-Lyrics-App"
-              >GitHub</a
-            >
-          </button>
+        <div class="project-cont-below">
+          <div class="project">
+
+              <h2 class="header-block">#1</h2>
+              <h2 class="title">Simple Weather App</h2>
+              <img
+                class="project-img"
+                src="../Images/project-page-image-1.png"
+                alt="PROJECT-IMG"
+              />
+              <p class="project-desc">
+                This is a simple weather app where a user can input any city in
+                the US, or any country, and it will display various information
+                about that location's weather!
+              </p>
+              <button class="button-links" src="">
+                <a
+                  class="demo-link"
+                  href="https://nashblount-weather-app.netlify.app/"
+                  >Demo</a
+                >
+              </button>
+              <button class="button-links">
+                <a
+                  class="github-link"
+                  href="https://github.com/nsblount111300/Weather-App"
+                  >GitHub</a
+                >
+              </button>
+              </div> 
+              <div class="project">
+                <h2 class="header-block">#2</h2>
+                <h2 class="title">Song Lyric Finder</h2>
+                <img
+                  class="project-img"
+                  src="../Images/song-lyrics-app.png"
+                  alt="PROJECT-IMG"
+                />
+                <p class="project-desc">
+                  This app allows a user to input a band name along with the title
+                  of the song to instantly get the lyrics to a song!
+                </p>
+                <button class="button-links">
+                  <a
+                    class="demo-link"
+                    href="https://nb-song-lyrics-app.netlify.app/"
+                    >Demo</a
+                  >
+                </button>
+                <button class="button-links">
+                  <a
+                    class="github-link"
+                    href="https://github.com/nsblount111300/Song-Lyrics-App"
+                    >GitHub</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
