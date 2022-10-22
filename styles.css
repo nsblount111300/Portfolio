@@ -25,6 +25,8 @@ nav {
   height: 0vh;
   margin-top: 200px;
   z-index: 5;
+  display: grid;
+  place-items: center;
 }
 
 .home-button {
