@@ -21,7 +21,7 @@ body {
 
 nav {
   position: fixed;
-  width: 73vw;
+  /* width: 73vw; */
   height: 0vh;
   margin-top: 200px;
   z-index: 5;
@@ -33,7 +33,7 @@ nav {
   /* margin: auto; */
   padding: 0px;
   /* margin-top: 50px; */
-  margin-left: 50px;
+  /* margin-left: 50px; */
   width: 300px;
   /* height: 9.5vh; */
   display: grid;
