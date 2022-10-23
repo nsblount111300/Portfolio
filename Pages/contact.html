@@ -16,29 +16,23 @@
     .contact-container {
       display: grid;
       place-items: center;
-      margin-top: 300px;
+      /* margin-top: 300px; */
     }
   </style>
   <body>
-    <section>
-      <nav>
-        <div class="home-button">
-          <div class="dropdown" data-dropdown>
-            <button class="link" data-dropdown-button>
-              <i class="fa-solid fa-address-book" data-dropdown-button></i>
-            </button>
-            <div class="dropdown-menu">
-              <a href="./home.html"
-                ><i class="fa-solid fa-house-chimney"></i
-              ></a>
-              <a href="./projects.html"
-                ><i class="fa-solid fa-clipboard-list"></i
-              ></a>
-              <a href="./blog.html"><i class="fa-solid fa-comment-dots"></i></a>
-            </div>
-          </div>
+    <section class="home-button">
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>
+          <i class="fa-solid fa-address-book" data-dropdown-button></i>
+        </button>
+        <div class="dropdown-menu">
+          <a href="./home.html"><i class="fa-solid fa-house-chimney"></i></a>
+          <a href="./projects.html"
+            ><i class="fa-solid fa-clipboard-list"></i
+          ></a>
+          <a href="./blog.html"><i class="fa-solid fa-comment-dots"></i></a>
         </div>
-      </nav>
+      </div>
       <div class="contact-container">
         <h1>Contact</h1>
         <p>Email:</p>
@@ -67,5 +61,6 @@
         >
       </div>
     </section>
+    <section class="page-bottom"></section>
   </body>
 </html>

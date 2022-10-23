@@ -105,7 +105,7 @@
     .svg {
       display: grid;
       place-items: center;
-      margin-top: 300px;
+      margin-top: 150px;
       width: 400px;
       height: 400px;
       vertical-align: center;
@@ -158,28 +158,22 @@
     }
   </style>
   <body>
-    <section>
-      <nav>
-        <div class="home-button">
-          <div class="dropdown" data-dropdown>
-            <button class="link" data-dropdown-button>
-              <i class="fa-solid fa-house-chimney" data-dropdown-button></i>
-            </button>
-            <div class="dropdown-menu">
-              <a href="../index.html"
-                ><i class="fa-solid fa-quote-right"></i
-              ></a>
-              <a href="./contact.html"
-                ><i class="fa-solid fa-address-book"></i
-              ></a>
-              <a href="./projects.html"
-                ><i class="fa-solid fa-clipboard-list"></i
-              ></a>
-              <a href="./blog.html"><i class="fa-solid fa-comment-dots"></i></a>
-            </div>
-          </div>
+    <nav class="home-button">
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>
+          <i class="fa-solid fa-house-chimney" data-dropdown-button></i>
+        </button>
+        <div class="dropdown-menu">
+          <a href="../index.html"><i class="fa-solid fa-quote-right"></i></a>
+          <a href="./contact.html"><i class="fa-solid fa-address-book"></i></a>
+          <a href="./projects.html"
+            ><i class="fa-solid fa-clipboard-list"></i
+          ></a>
+          <a href="./blog.html"><i class="fa-solid fa-comment-dots"></i></a>
         </div>
-      </nav>
+      </div>
+    </nav>
+    <section>
       <div>
         <svg
           class="svg"
@@ -230,13 +224,11 @@
         </svg>
       </div>
       <div class="index-container">
-        <div>
-          <p class="paragraph">
-            Hey there! Welcome to my website! My name is Nash and I am a mostly
-            self-taught programmer. I am currently working on a Bachelor's
-            degree in Computer Science with a Minor in Music.
-          </p>
-        </div>
+        <p class="paragraph">
+          Hey there! Welcome to my website! My name is Nash and I am a mostly
+          self-taught programmer. I am currently working on a Bachelor's degree
+          in Computer Science with a Minor in Music.
+        </p>
         <div class="skill-container">
           <h4>Skills:</h4>
           <ul class="skill-list">
@@ -248,5 +240,6 @@
         </div>
       </div>
     </section>
+    <section class="page-bottom"></section>
   </body>
 </html>

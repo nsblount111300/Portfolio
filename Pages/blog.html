@@ -13,54 +13,35 @@
     <title>Nash's Portfolio - Blog</title>
   </head>
   <body>
-    <section>
-      <nav>
-        <div class="home-button">
-          <div class="dropdown" data-dropdown>
-            <button class="link" data-dropdown-button>
-              <i class="fa-solid fa-comment-dots" data-dropdown-button></i>
-            </button>
-            <div class="dropdown-menu">
-              <a href="./home.html"
-                ><i class="fa-solid fa-house-chimney"></i
-              ></a>
-              <a href="./contact.html"
-                ><i class="fa-solid fa-address-book"></i
-              ></a>
-              <a href="./projects.html"
-                ><i class="fa-solid fa-clipboard-list"></i
-              ></a>
-            </div>
-          </div>
+    <section class="home-button">
+      <div class="dropdown" data-dropdown>
+        <button class="link" data-dropdown-button>
+          <i class="fa-solid fa-comment-dots" data-dropdown-button></i>
+        </button>
+        <div class="dropdown-menu">
+          <a href="./home.html"><i class="fa-solid fa-house-chimney"></i></a>
+          <a href="./contact.html"><i class="fa-solid fa-address-book"></i></a>
+          <a href="./projects.html"
+            ><i class="fa-solid fa-clipboard-list"></i
+          ></a>
         </div>
-      </nav>
-      <div class="blog-container">
-        <h1>Blog</h1>
-        <h2 class="blog-page-desc">
-          Welcome to my blog! This is where I will be posting updates to the
-          website as well as new concepts that I learn.
-        </h2>
-        <div id="blog-card-container"></div>
       </div>
     </section>
+
+    <section class="blog-container">
+      <h1 class="page-title">Blog</h1>
+      <h2 class="page-desc">
+        Welcome to my blog! This is where I will be posting updates to the
+        website as well as new concepts that I learn.
+      </h2>
+
+      <div id="blog-card-container"></div>
+    </section>
+    <section class="page-bottom"></section>
   </body>
+
   <script src="./blog.js" type="module"></script>
   <style>
-    h1 {
-      font-size: 50px;
-      margin: 10%;
-      margin-top: 300px;
-      /* margin-bottom: 10px; */
-    }
-    h2 {
-      display: grid;
-      place-items: center;
-      text-align: center;
-      margin-bottom: 50px;
-      padding: 20px;
-      font-size: 25px;
-      /* border: 1px solid red; */
-    }
     .blog-container {
       display: grid;
       place-items: center;

@@ -17,51 +17,24 @@
       /* --main-color: rgb(65, 121, 206); */
       --main-color: rgb(230, 94, 94);
     }
-
-    h1 {
-      color: white;
-      display: grid;
-      place-items: center;
-      margin: auto;
-      padding: auto;
-      margin-top: 25px;
-      width: 50vw;
-      height: 8.5vh;
-      border: 1.5px solid white;
-      border-radius: 0.25rem;
-      box-shadow: 0px 10px 20px 7px rgba(0, 0, 0, 0.31);
-    }
-    h2 {
-      color: white;
-      display: grid;
-      place-items: center;
-      margin-top: 110px;
-      margin-left: 20px;
-      width: 90%;
-      height: 20vh;
-      text-align: center;
-      font-style: italic;
-      /* border: 1px solid red; */
-      text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
-    }
-    p {
-      color: var(--main-color);
-      display: grid;
-      place-items: center;
-      margin-top: 30px;
-      margin-bottom: 100px;
-      /* border: 1px solid red; */
-      font-style: italic;
-      text-shadow: 5px 11px 6px rgba(0, 0, 0, 0.31);
-    }
     .fa-arrows-turn-right {
       display: grid;
       place-items: center;
       margin-top: -4px;
       transform: scale(1);
     }
-    body {
-      margin-top: 110px;
+    .arrow {
+      position: fixed;
+      top: 70px;
+      left: 56px;
+      width: 300px;
+      height: 10vh;
+      margin-bottom: 0px;
+      z-index: 5;
+      background-color: rgb(26, 26, 26);
+    }
+    .quote {
+      margin-bottom: -100px;
     }
   </style>
   <body>
@@ -70,20 +43,27 @@
         ><i class="fa-solid fa-arrows-turn-right"></i
       ></a>
     </h1>
-    <h2>
-      "It is often the small steps, not the giant leaps, that bring about the
-      most lasting change."
-    </h2>
-    <p>~Queen Elizabeth II</p>
-    <h2>
-      "No problem can be solved from the same level of consciousness that
-      created it."
-    </h2>
-    <p>~Albert Einstein</p>
-    <h2>
-      "Challenges are what make life interesting and overcoming them is what
-      makes life meaningful."
-    </h2>
-    <p>~Joshua J. Marine</p>
+    <div class="quote">
+      <h2>
+        "It is often the small steps, not the giant leaps, that bring about the
+        most lasting change."
+      </h2>
+      <p>~Queen Elizabeth II</p>
+    </div>
+    <div class="quote">
+      <h2>
+        "No problem can be solved from the same level of consciousness that
+        created it."
+      </h2>
+      <p>~Albert Einstein</p>
+    </div>
+    <div class="quote">
+      <h2>
+        "Challenges are what make life interesting and overcoming them is what
+        makes life meaningful."
+      </h2>
+      <p>~Joshua J. Marine</p>
+    </div>
+    <section class="page-bottom"></section>
   </body>
 </html>
