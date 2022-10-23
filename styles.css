@@ -29,8 +29,9 @@ nav {
   position: fixed;
   top: 70px;
   left: 56px;
-  height: 10vh;
+  /* height: 10vh; */
   margin-bottom: 0px;
+  z-index: 1;
   /* border: 1px solid red; */
 }
 
@@ -96,7 +97,7 @@ section {
 }
 
 .dropdown {
-  z-index: 1;
+  z-index: 5;
 }
 .dropdown-menu {
   display: grid;
@@ -115,7 +116,7 @@ section {
   transform: translateY(-70px);
   transition: opacity 150ms ease-in-out, transform 450ms ease-in-out;
   border: 2px solid rgb(161, 160, 160);
-  z-index: 1;
+  z-index: 5;
   /* border: 1px solid red; */
 }
 .dropdown.active > .link + .dropdown-menu {
