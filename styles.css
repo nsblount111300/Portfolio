@@ -37,10 +37,6 @@ nav {
 
 button {
   max-width: 300px;
-  /* align-items: center; */
-  /* position: relative; */
-  /* padding: 11px; */
-  /* margin: 5px; */
   border-radius: 10px;
   display: grid;
   place-items: center;
@@ -97,14 +93,14 @@ section {
 }
 
 .dropdown {
-  z-index: 5;
+  z-index: 0;
 }
 .dropdown-menu {
   display: grid;
   place-items: center;
-  position: relative;
+  /* position: relative; */
   margin-top: 10px;
-  top: calc(100% + 0.25rem);
+  /* top: calc(100% + 0.25rem); */
   background-color: rgb(26, 26, 26);
   padding: 0.75rem;
   border-radius: 0.35rem;
@@ -116,7 +112,7 @@ section {
   transform: translateY(-70px);
   transition: opacity 150ms ease-in-out, transform 450ms ease-in-out;
   border: 2px solid rgb(161, 160, 160);
-  z-index: 5;
+  z-index: -1;
   /* border: 1px solid red; */
 }
 .dropdown.active > .link + .dropdown-menu {
