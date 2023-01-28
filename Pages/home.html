@@ -11,152 +11,152 @@
     ></script>
     <script src="menu.js" defer></script>
     <title>Nash's Portfolio - Home</title>
-  </head>
-  <style>
-    :root {
-      --background-color: rgb(26, 26, 26);
-      /* --main-color: rgb(65, 121, 206); */
-      --main-color: rgb(230, 94, 94);
-    }
-
-    #path4 {
-      width: 400px;
-      margin: 10% auto;
-      display: block;
-    }
-    .color-blocks {
-      fill-opacity: 0;
-      stroke: var(--main-color);
-      stroke-width: 2.5px;
-      stroke-dashoffset: 0;
-      stroke-dasharray: 350;
-      animation: color-blocks 6s ease-in-out;
-    }
-    @keyframes color-blocks {
-      0% {
-        stroke-dashoffset: 350;
+    <style>
+      :root {
+        --background-color: rgb(26, 26, 26);
+        /* --main-color: rgb(65, 121, 206); */
+        --main-color: rgb(230, 94, 94);
       }
-      100% {
+
+      #path4 {
+        width: 400px;
+        margin: 10% auto;
+        display: block;
+      }
+      .color-blocks {
+        fill-opacity: 0;
+        stroke: var(--main-color);
+        stroke-width: 2.5px;
         stroke-dashoffset: 0;
+        stroke-dasharray: 350;
+        animation: color-blocks 6s ease-in-out;
       }
-    }
-
-    #path1 {
-      fill: none;
-    }
-
-    @keyframes fade {
-      from {
-        opacity: 0%;
+      @keyframes color-blocks {
+        0% {
+          stroke-dashoffset: 350;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
       }
-      to {
-        opacity: 100%;
+
+      #path1 {
+        fill: none;
       }
-    }
 
-    #svgg {
-      animation-name: fade;
-      animation-duration: 6s;
-    }
-
-    .index-container {
-      display: grid;
-      place-items: center;
-      text-align: center;
-      /* height: 100%; */
-    }
-    .paragraph {
-      font-size: 25px;
-      color: rgb(184, 184, 184);
-      animation: fade 3s ease;
-      animation-direction: normal;
-      padding: 50px;
-      margin-bottom: 75px;
-      stroke: black;
-      text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
-    }
-    .skill-container {
-      background-color: rgb(58, 58, 58);
-      width: 80%;
-      height: 100%;
-      margin-bottom: 50px;
-      display: grid;
-      place-items: center;
-      text-align: left;
-      border-radius: 0.5rem;
-      box-shadow: 4px 0px 40px -5px rgba(32, 32, 32, 0.7);
-      /* border: 1px solid red; */
-    }
-    .skill-list {
-      color: var(--main-color);
-      max-width: 100%;
-      font-size: 23px;
-      font-style: italic;
-      margin-left: 10%;
-      animation: fade 3s ease;
-      animation-delay: 0ms;
-      animation-direction: normal;
-      /* margin-bottom: 50vh; */
-      text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
-      list-style: none;
-
-      /* border: 1px solid red; */
-    }
-    .svg {
-      display: grid;
-      place-items: center;
-      margin-top: 150px;
-      width: 400px;
-      height: 400px;
-      vertical-align: center;
-      background-position: center;
-      text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
-      /* border: 1px solid red; */
-    }
-    h4 {
-      color: rgb(230, 94, 94);
-      font-size: 35px;
-      font-style: normal;
-      text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.31);
-    }
-
-    p::before,
-    p::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-    }
-    p::before {
-      background: var(--background-color);
-      animation: typewriter 4s ease forwards;
-    }
-    @keyframes typewriter {
-      to {
-        left: 100%;
+      @keyframes fade {
+        from {
+          opacity: 0%;
+        }
+        to {
+          opacity: 100%;
+        }
       }
-    }
 
-    li {
-      color: rgb(255, 255, 255);
-      font-size: 30px;
-      margin-bottom: 5px;
-      /* border: 1px solid red; */
-    }
+      #svgg {
+        animation-name: fade;
+        animation-duration: 6s;
+      }
 
-    li::before {
-      content: "•";
-      color: rgb(230, 94, 94);
-      font-size: 30px;
-      /* margin-bottom: 10px;
+      .index-container {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        /* height: 100%; */
+      }
+      .paragraph {
+        font-size: 25px;
+        color: rgb(184, 184, 184);
+        animation: fade 3s ease;
+        animation-direction: normal;
+        padding: 50px;
+        margin-bottom: 75px;
+        stroke: black;
+        text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
+      }
+      .skill-container {
+        background-color: rgb(58, 58, 58);
+        width: 80%;
+        height: 100%;
+        margin-bottom: 50px;
+        display: grid;
+        place-items: center;
+        text-align: left;
+        border-radius: 0.5rem;
+        box-shadow: 4px 0px 40px -5px rgba(32, 32, 32, 0.7);
+        /* border: 1px solid red; */
+      }
+      .skill-list {
+        color: var(--main-color);
+        max-width: 100%;
+        font-size: 23px;
+        font-style: italic;
+        margin-left: 10%;
+        animation: fade 3s ease;
+        animation-delay: 0ms;
+        animation-direction: normal;
+        /* margin-bottom: 50vh; */
+        text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
+        list-style: none;
+
+        /* border: 1px solid red; */
+      }
+      .svg {
+        display: grid;
+        place-items: center;
+        margin-top: 150px;
+        width: 400px;
+        height: 400px;
+        vertical-align: center;
+        background-position: center;
+        text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
+        /* border: 1px solid red; */
+      }
+      h4 {
+        color: rgb(230, 94, 94);
+        font-size: 35px;
+        font-style: normal;
+        text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.31);
+      }
+
+      p::before,
+      p::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+      p::before {
+        background: var(--background-color);
+        animation: typewriter 4s ease forwards;
+      }
+      @keyframes typewriter {
+        to {
+          left: 100%;
+        }
+      }
+
+      li {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        margin-bottom: 5px;
+        /* border: 1px solid red; */
+      }
+
+      li::before {
+        content: "•";
+        color: rgb(230, 94, 94);
+        font-size: 30px;
+        /* margin-bottom: 10px;
       margin-right: 10px; */
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-    }
-  </style>
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+    </style>
+  </head>
   <body>
     <nav class="home-button">
       <div class="dropdown" data-dropdown>
@@ -183,6 +183,7 @@
           xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0, 0, 400,400"
         >
+          *
           <g id="svgg">
             <path
               id="path0"
@@ -226,8 +227,9 @@
       <div class="index-container">
         <p class="paragraph">
           Hey there! Welcome to my website! My name is Nash and I am a mostly
-          self-taught programmer. I am currently working on a Bachelor's degree
-          in Computer Science with a Minor in Music.
+          self-taught programmer. I am currently working on an Associate's
+          Degree in Web Application Development at Southern Crescent Technical
+          College and plan to get a computer hardware degree eventually.
         </p>
         <div class="skill-container">
           <h4>Skills:</h4>

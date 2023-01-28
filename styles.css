@@ -28,6 +28,8 @@ nav {
 .home-button {
   position: fixed;
   top: 70px;
+  display: grid;
+  align-items: center;
   left: 56px;
   /* height: 10vh; */
   margin-bottom: 0px;
@@ -80,7 +82,7 @@ p {
   text-shadow: 5px 7px 4px rgba(0, 0, 0, 0.31);
 }
 .page-bottom {
-  height: 100px;
+  height: 200px;
 }
 section {
   /* position: fixed; */
@@ -217,10 +219,9 @@ section {
     place-items: center;
   }
   body {
-    max-width: 60%;
   }
   .home-button {
-    left: 42.2vw;
+    left: 42vw;
   }
   .project-container {
     max-width: 10%;
@@ -250,7 +251,7 @@ section {
   /* Blog Page */
   .blog-page-desc {
     margin-top: -20px;
-    max-width: 80%;
+    max-width: 70%;
     font-size: 35px;
   }
   #blog-img {
@@ -259,7 +260,9 @@ section {
     max-width: 40%;
   }
   #blog-text {
+    margin-top: 1em;
     font-size: 30px;
+    width: 20em;
   }
   #blog-date {
     font-size: 35px;

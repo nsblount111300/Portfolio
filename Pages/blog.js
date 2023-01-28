@@ -39,6 +39,7 @@ blogData.forEach((blog) => {
     <h3 id="blog-title">${blog.title}</h3>
     <img id="blog-img" src="${blog.img}">
     <p id="blog-text">${blog.text}</p>
+
   `;
 
   singleBlog.appendChild(childDiv);
