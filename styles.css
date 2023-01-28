@@ -219,9 +219,10 @@ section {
     place-items: center;
   }
   body {
+    max-width: 60%;
   }
   .home-button {
-    left: 42vw;
+    left: 41vw;
   }
   .project-container {
     max-width: 10%;
